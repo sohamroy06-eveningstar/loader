@@ -1,0 +1,28 @@
+.loader{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid yellow;
+    border-top: 5px solid aqua;
+    animation: spinAnimate 0.25s ease-in 0s infinite normal;
+    text-align: center;
+    color: white;
+    transform: translate(600px,600px);
+    
+}
+
+@keyframes spinAnimate{
+    from { transform: rotate(0deg);
+
+    }
+    to {
+        transform: rotate(360deg);
+
+    }
+}
+body{
+    text-align: center;
+    background-image:url(FOX.jpg) ;
+    background-size: cover;
+    
+}
